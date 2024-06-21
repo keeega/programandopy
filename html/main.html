@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>Kevin Garay</h1>
+        <h2>Community Manager</h2>
+    </header>
+    <main>
+        <section id="acerca-de-mi">
+            <h3>Acerca de mí</h3>
+            <p>Soy un apasionado del desarrollo web con experiencia en HTML, CSS y JavaScript. Estoy en constante aprendizaje y buscando nuevos desafíos para mejorar mis habilidades.</p>
+        </section>
+        <section id="habilidades">
+            <h3>Habilidades</h3>
+            <div class="container"> 
+              <div class="skill">
+                <p><span>HTML</span>80%</p>
+                <div class="progress" style="--wth:80%"></div>
+              </div>
+              <div class="skill">
+                <p><span>CSS</span>70%</p>
+                <div class="progress" style="--wth:70%"></div>
+              </div>
+              <div class="skill">
+                <p><span>JAVASCRIPT</span>50%</p>
+                <div class="progress" style="--wth:50%"></div>
+              </div>
+              <div class="skill">
+                <p><span>UI</span>80%</p>
+                <div class="progress" style="--wth:80%"></div>
+              </div>
+            </div>
+        </section>
+        <section id="experiencia">
+            <h3>Experiencia</h3>
+            <div>
+                <h4>Pandolfo S.A (2023-2024)</h4>
+                <p>Asistente de Marketing</p>
+                <p>Encargado de publicidades, videos directivos, carteles ruteros, redes sociales, etc.</p>
+                <p>Asistente Informático</p>
+                <p>Responsable del desarrollo y mantenimiento de la página web de la empresa</p>
+            </div>
+            <div>
+                <h4>Uniq (2024-Actualidad)</h4>
+                <p>Community Manager</p>
+                <p>Identidad de marca, publicidad en redes, ventas online, publico objetivo.</p>
+            </div>
+        </section>
+        <section id="proyectos">
+            <h3>Proyectos</h3>
+            <ul>
+                <li><a href="#">Smart Hand - Mano robótica controlado via ondas cerebrales </a></li>
+                <li><a href="#">Uniq - Agencia de Marketing</a></li>
+            </ul>
+        </section>
+        <section id="contacto">
+            <h3>Contacto</h3>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje"></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
